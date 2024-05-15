@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change img</title>
+</head>
+
+<body>
+    <!-- <img src="https://cdn.vallarta-adventures.com/sites/default/files/2022-01/shutterstock_784631011_8.jpg" alt=""> -->
+    <div>
+        <style>
+            @keyframes changeimg {
+
+                25% {
+                    background-image: url("https://www.marylandzoo.org/wp-content/uploads/2018/09/tyson1-1024x683.jpg")
+                }
+
+                50% {
+                    background-image: url("https://cdn.vallarta-adventures.com/sites/default/files/2022-01/shutterstock_784631011_8.jpg")
+                }
+
+                75% {
+                    background-image: url("https://www.zoonewengland.org/media/jk0kg2qx/macaw-gallery2.jpg")
+                }
+
+                90% {
+                    background-image: url("https://preview.redd.it/pink-cockatoo-v0-4r4o4fij5gva1.jpg?width=640&crop=smart&auto=webp&s=6e05f0656604e78c4585a5832c5f4090ce9e458f")
+                }
+
+
+            }
+
+            body {
+                background-size: 1200px 1200px;
+                position: relative;
+                background-repeat: no-repeat;
+                animation-name: changeimg;
+                animation-duration: 10s;
+                animation-iteration-count: repeat;
+
+
+            }
+        </style>
+    </div>
+
+</body>
+
+</html>
